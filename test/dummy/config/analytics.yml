@@ -1,0 +1,20 @@
+#
+# Be sure to restart your server when you modify this file.
+#
+development:
+  google:
+    site_id: "UA-XXXXX"
+  clicky:
+    site_id: 123456789
+
+test:
+  google:
+    site_id: 123456789
+  clicky:
+    site_id: 123456789
+
+production:
+  google:
+    site_id: 123456789
+  clicky:
+    site_id: 123456789

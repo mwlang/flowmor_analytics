@@ -1,0 +1,41 @@
+#
+# Be sure to restart your server when you modify this file.
+#
+# Only production renders the tracking scripts by default
+#
+# If you want to render for an environment, then add "render: true" either at the environment
+# section or at the site-specific section.
+#
+# Environment Example:
+#   development:
+#     render: true
+#     google:
+#       site_id: ...
+#
+#
+# Site Example:
+#   development:
+#     google:
+#       render: true
+#       site_id: ...
+#     clicky:
+#       render: false
+#       site_id: ...
+#
+development:
+  google:
+    site_id: "UA-XXXXX"
+  clicky:
+    site_id: 123456789
+
+test:
+  google:
+    site_id: "UA-XXXXX"
+  clicky:
+    site_id: 123456789
+
+production:
+  google:
+    site_id: "UA-XXXXX"
+  clicky:
+    site_id: 123456789
