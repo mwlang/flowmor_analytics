@@ -9,12 +9,12 @@ development:
 
 test:
   google:
-    site_id: 123456789
+    site_id: "UA-XXXXX"
   clicky:
     site_id: 123456789
 
 production:
   google:
-    site_id: 123456789
+    site_id: "UA-XXXXX"
   clicky:
     site_id: 123456789
